@@ -1,12 +1,17 @@
-/***************************************************************************
-* Purpose : To find minimum and maximum between five randomly generated number
+/******************************************************************************
+ *  Compilation:  javac -d bin com/bridgelabz/util/Stats5.java
+ *  Execution:    java -cp bin com/bridgelabz/util/Stats5
+ *  
+ *  Purpose:   To find average,minimum and maximum between five randomly generated number.
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   10-08-2017
+ *
+ ******************************************************************************/
 
 
-*@ author : Tauqueer ansari
-*@ version : 1.0
-*@ since : 10-08-2017
-****************************************************************************/
-
+package com.bridgelabz.util; 
 
 
 public class Stats5 {
@@ -35,9 +40,9 @@ public class Stats5 {
 
 
                // print stats
-                System.out.println("average =" +average);   
-                System.out.println("max =" +max);
-                System.out.println("min =" +min);      
-}
+		System.out.println("min =" +min);
+		System.out.println("max =" +max); 
+                System.out.println("average =" +average);                        
+		}
 }          
 

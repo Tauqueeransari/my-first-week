@@ -1,10 +1,17 @@
-/***************************************************************************
-* Purpose : Quadratic Equations root1 root2
-*
-*@author : Tauqueer ansari
-*@version : 1.0
-*@since : 09-08-2017
-****************************************************************************/
+/******************************************************************************
+ *  Compilation:  javac -d bin com/bridgelabz/util/Quadratic.java
+ *  Execution:    java -cp bin com/bridgelabz/util/Quadratic
+ *  
+ *  Purpose: Quadratic Equations root1 root2
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   09-08-2017
+ *
+ ******************************************************************************/
+
+
+package com.bridgelabz.util; 
 
 
 import java.util.Scanner;

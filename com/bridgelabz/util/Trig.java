@@ -1,10 +1,17 @@
-/***************************************************************************
-* Purpose : llustrate   various   trigonometric   functions
-*
-*@author : Tauqueer ansari
-*@version : 1.0
-*@since : 09-08-2017
-****************************************************************************/
+/******************************************************************************
+ *  Compilation:  javac -d bin com/bridgelabz/util/Trig.java
+ *  Execution:    java -cp bin com/bridgelabz/util/Trig
+ *  
+ *  Purpose:   llustrate   various   trigonometric   functions.
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   10-08-2017
+ *
+ ******************************************************************************/
+
+
+package com.bridgelabz.util;
 
 
 public class Trig { 

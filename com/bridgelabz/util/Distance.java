@@ -1,10 +1,16 @@
-﻿/***************************************************************************
-* Purpose : Takes two command­line arguments x and y and distance from point (x, y) to origin (0, 0)
-*
-* @author : Tauqueer ansari
-* @version : 1.0
-* @since : 09-08-2017
-****************************************************************************/
+/******************************************************************************
+ *  Compilation:  javac -d bin com/bridgelabz/util/Distance.java
+ *  Execution:    java -cp bin com/bridgelabz/util/Distance
+ *  
+ *  Purpose:  Takes two command�line arguments x and y and distance from point (x, y) to origin (0, 0)
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   10-08-2017
+ *
+ ******************************************************************************/
+
+package com.bridgelabz.util; 
 
 
 class Distance {
@@ -19,7 +25,6 @@ class Distance {
 
                 // compute distance to(0,0)
 		double dist = Math.sqrt(a+b);
-
-		System.out.println("Distance from ("+ x +","+ y +") to(0,0) = "+ dist);
+System.out.println("Distance from ("+ x +","+ y +") to(0,0) = "+ dist);
 	} 
 }

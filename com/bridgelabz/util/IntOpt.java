@@ -1,19 +1,25 @@
-/***************************************************************************
-*  Purpose : Get input values and do Some Integer operations.
+/******************************************************************************
+ *  Compilation:  javac -d bin IntOpt.java
+ *  Execution:    java -cp bin com.bridgelabz.util.IntOpt 
+ *  
+ *  Purpose: Get input values and do Some Integer operations.
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   10-08-2017
+ *
+ ******************************************************************************/
 
 
-*  @author : Tauqueer Ansari
-*  @version : 1.0
-*  @since : 08-08-2017
-****************************************************************************/
+package com.bridgelabz.util; 
 
 
 import java.util.Scanner;
 
 class IntOpt {
 	
-	public static void main(String args[]) { 
-
+	public static void main(String args[]) 
+	{ 
 		Scanner sc = new Scanner(System.in);
 		
 		// declaration of a,b,c to take input from user
@@ -28,7 +34,6 @@ class IntOpt {
 		System.out.print("Enter values of c:");
 		c=sc.nextInt();
 		
-
 		//Prints The output  
 
 		System.out.println("a + b * c = " +( a + b * c ));

@@ -1,11 +1,17 @@
-/***********************************************************************
-* Purpose : Print Leap Year or Not a Leap Year
-*
-*@author : Tauqueer ansari
-*@version : 1.0
-*@since : 08-08-2017
-************************************************************************/
+/******************************************************************************
+ *  Compilation:  javac -d bin com/bridgelabz/util/LeapYear.java
+ *  Execution:    java -cp bin com/bridgelabz/util/LeapYear
+ *  
+ *  Purpose: print leap year or not a leap year.
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   10-08-2017
+ *
+ ******************************************************************************/
 
+
+package com.bridgelabz.util; 
 
 import java.util.Scanner;
 

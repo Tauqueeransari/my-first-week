@@ -1,11 +1,17 @@
-/***************************************************************************
-* Purpose : Get input and Do Some operations using Double Values
+/******************************************************************************
+ *  Compilation:  javac -d bin com/bridgelabz/util/DoubleOpt.java
+ *  Execution:    java -cp bin com/bridgelabz/util/DoubleOpt
+ *  
+ *  Purpose: Get input values and do Some Integer operations.
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   10-08-2017
+ *
+ ******************************************************************************/
 
 
-*@ author : Tauqueer ansari
-*@ version : 1.0
-*@ since : 08-08-2017
-****************************************************************************/
+package com.bridgelabz.util; 
 
 
 import java.util.Scanner;

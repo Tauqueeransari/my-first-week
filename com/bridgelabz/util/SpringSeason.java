@@ -1,11 +1,17 @@
-/***************************************************************************
-* Purpose : Spring Season
-*
-*@author : Tauqueer ansari
-*@version : 1.0
-*@since : 09-08-2017
-****************************************************************************/
+/******************************************************************************
+ *  Compilation:  javac -d bin com/bridgelabz/util/SpringSeason.java
+ *  Execution:    java -cp bin com/bridgelabz/util/SpringSeason
+ *  
+ *  Purpose: print SpringSeason or not.
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   09-08-2017
+ *
+ ******************************************************************************/
 
+
+package com.bridgelabz.util; 
 
 class SpringSeason {
 	

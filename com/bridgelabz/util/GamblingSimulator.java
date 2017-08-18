@@ -1,12 +1,17 @@
-/***************************************************************************
-* Purpose :Simulates a gambler who start with $stake and place fair $1 bets
-  until she goes broke or reach $goal. Keeps track of the number o  times she wins and the number of bets she makes.
+/******************************************************************************
+ *  Compilation:  javac -d bin com/bridgelabz/util/GamblingSimulator.java
+ *  Execution:    java -cp bin com/bridgelabz/util/GamblingSimulator
+ *  
+ *  Purpose:   Simulates a gambler  Keeps track of the number of  times she wins and the number of bets she makes.
+ *
+ *  @author  Tauqueer ansari
+ *  @version 1.0
+ *  @since   10-08-2017
+ *
+ ******************************************************************************/
 
-*@author : Tauqueer ansari
-*@version : 1.0
-*@since : 10-08-2017
-****************************************************************************/
 
+package com.bridgelabz.util; 
 
 
 public class GamblingSimulator {
