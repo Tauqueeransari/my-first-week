@@ -27,15 +27,15 @@ class MathFunction{
     }
 
     public static String binaryNumber(int n) {
-        int nNumber = n;
+        int Num = n;
 
         String binary = "";
 
         int mReminder;
 
-        while(nNumber > 0) {
-            mReminder = nNumber % 2;
-            nNumber = nNumber / 2;
+        while(Num > 0) {
+            mReminder = Num % 2;
+            Num = Num / 2;
             binary+=mReminder;
         }
         return binary;
@@ -106,17 +106,17 @@ class MathFunction{
         return PresentValue;
     }
 
-    public static int maxValue(int[] numbers) {
+    public static int maxValue(int[] num) {
 
-        int mLargest = numbers[0];
+        int m = args[0];
 
-        for (int i = 1; i < numbers.length; i++) {
-            if (numbers[i] > mLargest) {
-                mLargest = numbers[i];
+        for (int i = 1; i < args.length; i++) {
+            if (num[i] > m) {
+                m = num[i];
             }
         }
 
-        return mLargest;
+        return m;
     }
 
     public static int minValue(int[] numbers) {
@@ -193,12 +193,7 @@ class MathFunction{
     }
 
     public static void main(String args[]){
-
-	for(int i=0;i<=args.length;i++)
-{
-	int arg =Integer.parseIn(args [i]);
-	double value=harmonic(arg);
-	System.out.println(value);
+	System.out.println(Integer.parseInt(args [0]));
     }
 }
 }

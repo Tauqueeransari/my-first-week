@@ -29,9 +29,15 @@ class Calendar {
         //returns the date
         return d;	
 	}
-    public static void main(String args[]){
+
+	public static String DisplayDay(int index) {
+	String[] Day={"Sun","Mon","Tues","Wed","Thurs","Fri","Sat"};
+	return Day[index];
+	}
+
+	public static void main(String args[]){
 
         //prints and call the static fucntion
-        System.out.println(dayOfWeek(Integer.parseInt(args[0]),Integer.parseInt(args[1]),Integer.parseInt(args[2])));
+	System.out.println(dayOfWeek(Integer.parseInt(args[0]),Integer.parseInt(args[1]),Integer.parseInt(args[2])));
     }
 }
