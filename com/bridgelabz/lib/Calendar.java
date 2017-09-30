@@ -12,7 +12,7 @@
          
 
 
-package com.bridgelabz.lib;
+//package com.bridgelabz.lib;
 
 class Calendar {
 
@@ -30,13 +30,7 @@ class Calendar {
         return d;	
 	}
 
-	public static String DisplayDay(int index) {
-	String[] Day={"Sun","Mon","Tues","Wed","Thurs","Fri","Sat"};
-	return Day[index];
-	}
-
 	public static void main(String args[]){
-
         //prints and call the static fucntion
 	System.out.println(dayOfWeek(Integer.parseInt(args[0]),Integer.parseInt(args[1]),Integer.parseInt(args[2])));
     }
